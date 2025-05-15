@@ -17,14 +17,18 @@ description: "Welcome to the official documentation for ZeroSetup by JoblessCEO.
 
 ## Setting up
 
-The first step is to clone the repository into your local development environment.
+The first step is to clone the repository into your local development environment and connect a database.
+
+<Note>
+  This is a mandatory step, do NOT skip this section.
+</Note>
 
 <CardGroup cols="2">
-  <Card title="How to clone from Github" icon="clone" href="https://mintlify.com/docs/quickstart">
+  <Card title="Clone from Github" icon="clone" href="https://mintlify.com/docs/quickstart">
     Get the code set up locally for development.
   </Card>
   <Card title="Connect Database" icon="database" href="https://mintlify.com/docs/development">
-    Connect a database to your website.
+    Connect a database for storing data.
   </Card>
 </CardGroup>
 
@@ -32,17 +36,23 @@ The first step is to clone the repository into your local development environmen
 
 Update your docs to your brand and add valuable content for the best user conversion.
 
-<CardGroup cols="2">
+<CardGroup cols={3}>
   <Card title="Customize Style" icon="palette" href="https://mintlify.com/docs/settings/global">
-    Customize your docs to your company's colors and brands
+    Set your website's name, logo, colors, etc and make it stand out.
   </Card>
-  <Card title="Reference APIs" icon="code" href="https://mintlify.com/docs/api-playground/openapi">
-    Automatically generate endpoints from an OpenAPI spec
+  <Card title="Add Authentication" icon="key" href="https://mintlify.com/docs/api-playground/openapi">
+    Allow users to login to your website securely using oAuth and credentials.
   </Card>
-  <Card title="Add Components" icon="screwdriver-wrench" href="https://mintlify.com/docs/content/components/accordions">
-    Build interactive features and designs to guide your users
+  <Card title="Create Pricing" icon="dollar-sign" href="https://mintlify.com/docs/content/components/accordions">
+    Allows you to create plans and set pricing for your end users.
   </Card>
-  <Card title="Get Inspiration" icon="stars" href="https://mintlify.com/customers">
-    Check out our showcase of our favorite documentation
+  <Card title="Connect Storage" icon="box" href="https://mintlify.com/customers">
+    Store all the user uploaded files like profile pictures / videos in a S3-complaint storage like Amazon S3, Cloudflare R2, etc.
+  </Card>
+  <Card title="Connect Email" icon="envelope-open">
+    Enable your app/website to send transactional emails by connecting an SMTP account like Sendgrid, Mailgun, etc.
+  </Card>
+  <Card title="Connect Analytics" icon="chart-line">
+    Get complete information on your website traffic by connecting it to an analytics service like Plausible, PostHog, etc
   </Card>
 </CardGroup>
